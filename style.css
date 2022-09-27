@@ -65,16 +65,37 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
- .btnRoyal {
-    background: #2196f3;  
-    background: -webkit-linear-gradient(to right, #f44336, #2196f3); 
-    background: linear-gradient(to right, #f44336, #2196f3); 
+
+/* @Media */
+
+@media (max-width: 818px) {
+    .title {
+        font-size: 4em;
+        margin: 3px;
+    }
+    .placeholder {
+        border-bottom: 2px solid #fff;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .btn {
+        width: 150px;
+        height: 150px;
+    }
 }
 
-.btnDRoyal:hover {
-    background: #16BFFD;  
-    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD); 
-    background: linear-gradient(to right, #CB3066, #16BFFD); 
+@media (max-width: 484px) {
+    .title {
+        font-size: 2em;
+        margin: 1px;
+    }
+    .placeholder {
+        border-bottom: 1px solid #fff;
+        font-weight: 100;
+    }
+    .btn {
+        width: 100px;
+        height: 100px;
+    }
 }
-
 
